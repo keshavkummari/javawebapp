@@ -34,14 +34,14 @@
 	
 <distributionManagement>
     <repository>
-        <id>release</id>
-        <name>release</name>
-        <url>http://3.239.82.160:8082/artifactory/example-repo-local/</url>
+        <id>central</id>
+        <name>Central/name>
+        <url>http://65.0.124.225:8081/artifactory/ourfirstjavamaven</url>
     </repository>
     <snapshotRepository>
-        <id>snapshot</id>
-        <name>snapshot</name>
-        <url>http://3.239.82.160:8082/artifactory/example-repo-local/</url>
+        <id>snapshots</id>
+        <name>SnapShot</name>
+        <url>http://65.0.124.225:8081/artifactory/ourfirstjavamaven</url>
     </snapshotRepository>
 </distributionManagement>
 	
