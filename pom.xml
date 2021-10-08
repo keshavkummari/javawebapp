@@ -8,7 +8,7 @@
 	<packaging>war</packaging>
 
 	<name>devworld</name>
-	<description>DevOps Demo Project</description>
+	<description>AWS DevOps Java Project</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -31,7 +31,7 @@
         <sonar.login>4a3dc9dedabe9121c190fe4a39cf5e107e7e7ec7</sonar.login>
 -->
 	</properties>	
-	
+	<!--
 <distributionManagement>
     <repository>
         <id>release</id>
@@ -44,12 +44,12 @@
         <url>http://3.239.82.160:8082/artifactory/example-repo-local/</url>
     </snapshotRepository>
 </distributionManagement>
-	
+	-->
 
 	<scm>
-		<connection>scm:git:git@github.com:chennakesavulukummari/javawebapp.git</connection> 
-		<developerConnection>scm:git:git@github.com:chennakesavulukummari/javawebapp.git</developerConnection>
-		<url>git@github.com:chennakesavulukummari/javawebapp.git</url>
+		<connection>scm:git:git@github.com:keshavkummari/javawebapp.git</connection> 
+		<developerConnection>scm:git:git@github.com:keshavkummari/javawebapp.git</developerConnection>
+		<url>git@github.com:keshavkummari/javawebapp.git</url>
 
 		<tag>HEAD</tag>
 	</scm>
