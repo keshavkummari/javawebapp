@@ -8,7 +8,7 @@
 	<packaging>war</packaging>
 
 	<name>devworld</name>
-	<description>AWS DevOps Java Project</description>
+	<description>Demo AWS DevOps Java Project</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
